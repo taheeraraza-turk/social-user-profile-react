@@ -1,9 +1,12 @@
 {
   "name": "random-user-api",
+  "homepage": "https://taheeraraza-turk/social-user-profile-react",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -11,6 +14,7 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.8",
+    "gh-pages": "^6.3.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "tailwindcss": "^4.1.8"
